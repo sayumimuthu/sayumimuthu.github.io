@@ -1,0 +1,197 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Gender Stereotypes in LLM-Generated Children's Stories | Sayumi Muthukumarana </title> <meta name="author" content="Sayumi Muthukumarana"> <meta name="description" content="How the intended child and the narrator shape character traits and social roles in AI-written stories."> <meta name="keywords" content="Sayumi Muthukumarana, natural language processing, responsible AI, large language models, computational biology, University of Peradeniya, MARC"> <meta property="og:site_name" content="Sayumi Muthukumarana"> <meta property="og:type" content="website"> <meta property="og:title" content="Sayumi Muthukumarana | Gender Stereotypes in LLM-Generated Children's Stories"> <meta property="og:url" content="https://sayumimuthu.github.io/projects/gender-stereotypes/"> <meta property="og:description" content="How the intended child and the narrator shape character traits and social roles in AI-written stories."> <meta property="og:image" content="https://sayumimuthu.github.io/assets/img/prof_pic.jpg"> <meta property="og:locale" content="en"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="Gender Stereotypes in LLM-Generated Children's Stories"> <meta name="twitter:description" content="How the intended child and the narrator shape character traits and social roles in AI-written stories."> <meta name="twitter:image" content="https://sayumimuthu.github.io/assets/img/prof_pic.jpg"> <script type="application/ld+json">
+    {
+        "author":
+        {
+            "@type": "Person",
+            "name": "Sayumi Muthukumarana"
+        },
+        "url": "https://sayumimuthu.github.io/projects/gender-stereotypes/",
+        "@type": "WebSite",
+        "description": "How the intended child and the narrator shape character traits and social roles in AI-written stories.",
+        "headline": "Gender Stereotypes in LLM-Generated Children's Stories",
+        
+        "sameAs": ["https://scholar.google.com/citations?user=-3Eo8csAAAAJ","https://github.com/sayumimuthu","https://www.linkedin.com/in/sayumi-muthukumarana-267148216",null,"https://people.ce.pdn.ac.lk/students/e19/249/"],
+        
+        "name": "Sayumi Muthukumarana",
+        "@context": "https://schema.org"
+    }
+  </script> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="/assets/img/favicon.png?v=66259d4339ad504d4092b13f91840b01"> <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png?v=9e517d81d5f474cb3976604840254e06"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://sayumimuthu.github.io/projects/gender-stereotypes/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Sayumi</span> Muthukumarana </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/">projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Gender Stereotypes in LLM-Generated Children's Stories</h1> <p class="post-description">How the intended child and the narrator shape character traits and social roles in AI-written stories.</p> </header> <article> <p><strong>Area:</strong> Responsible AI, natural language processing  ·  <strong>Period:</strong> November 2025 – present  ·  <strong>Status:</strong> Preprint on arXiv <a class="citation" href="#muthukumarana2026onceuponabias">(Muthukumarana et al., 2026)</a></p> <p>LLMs are increasingly used to write stories for children. This project studies whether, and how, those stories encode gender stereotypes, and asks what inside the model drives them.</p> <h4 id="what-i-did">What I did</h4> <ul> <li>Designed <strong>matched daughter-son comparisons</strong> and investigated how the gender of the intended child and the narrator’s identity affect character traits and social-role portrayals.</li> <li>Built evaluation pipelines combining <strong>agency/communion and trait lexicons</strong>, matched interaction analyses and <strong>human assessments</strong> of narrative differences.</li> <li>Examined whether recipient information encoded in model <strong>hidden states</strong> has a causal influence on generated portrayals, using <strong>probing and activation interventions</strong> to distinguish decodability from demonstrated causation.</li> </ul> <h4 id="methods">Methods</h4> <p>NLP · algorithmic fairness · quantitative text analysis · human evaluation · representation probing · causal intervention experiments</p> <h4 id="links">Links</h4> <p><i class="fa-brands fa-github"></i> <a href="https://github.com/sayumimuthu/Bias-Detection-in-LLMs" rel="external nofollow noopener" target="_blank">Code</a></p> </article> <h2>References</h2> <div class="publications"> <h2 class="bibliography">2026</h2> <ol class="bibliography"><li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100" style="background-color:#b31b1b"> <a href="https://arxiv.org/" rel="external nofollow noopener" target="_blank">arXiv</a> </abbr> <figure> <picture> <img src="/assets/img/publication_preview/gender_stories.jpg" class="preview z-depth-1 rounded" width="100%" height="auto" alt="gender_stories.jpg" data-zoomable loading="eager" onerror="this.onerror=null; document.querySelectorAll('.responsive-img-srcset').forEach(function (n) { n.remove(); });"> </picture> </figure> </div> <div id="muthukumarana2026onceuponabias" class="col-sm-8"> <div class="title">Once Upon a Bias: Gender Stereotyping in LLM-Generated Children’s Stories</div> <div class="author"> <em>Sayumi Muthukumarana</em>, <a href="https://web2.ee.pdn.ac.lk/people/RoshanG" rel="external nofollow noopener" target="_blank">Roshan Godaliyadda</a>, Parakrama Ekanayake, and <a href="https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/" rel="external nofollow noopener" target="_blank">Roshan Ragel</a> </div> <div class="periodical"> <em>arXiv preprint</em>, 2026 </div> <div class="periodical"> </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://github.com/sayumimuthu/Bias-Detection-in-LLMs" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a> </div> <div class="abstract hidden"> <p>We study how the gender of an intended child and the identity of the narrator shape character traits and social-role portrayals in children’s stories generated by large language models. Using matched daughter-son comparisons, we combine agency/communion and trait lexicons, matched interaction analyses and human assessments of narrative differences. Through probing and activation interventions, we further examine whether recipient information encoded in model hidden states has a causal influence on generated portrayals, distinguishing decodability from demonstrated causation.<br><br><strong>My contribution:</strong> Conceptualization; experimental design; dataset curation; quantitative evaluation; writing (original draft, review and editing).</p> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@article</span><span class="p">{</span><span class="nl">muthukumarana2026onceuponabias</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Once Upon a Bias: Gender Stereotyping in LLM-Generated Children's Stories}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Muthukumarana, Sayumi and Godaliyadda, Roshan and Ekanayake, Parakrama and Ragel, Roshan}</span><span class="p">,</span>
+  <span class="na">journal</span> <span class="p">=</span> <span class="s">{arXiv preprint}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2026}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li></ol> </div> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Sayumi Muthukumarana. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. Last updated: November 25, 2026. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "about",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-publications",
+          title: "publications",
+          description: "Papers and preprints in reverse chronological order. Click &quot;Abs&quot; for a summary and my contribution, or &quot;Bib&quot; for the citation.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Research projects, grouped by area. Click a card for details, methods and links.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "An overview of my education, research and teaching experience. Click the PDF icon on the right to download my full CV.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "news-started-a-research-internship-at-the-neurobionics-laboratory-university-of-melbourne-working-on-accessible-gaming-controllers-for-children-with-cerebral-palsy-and-eeg-based-brain-computer-interfaces-brain",
+          title: 'Started a research internship at the NeuroBionics Laboratory, University of Melbourne, working on...',
+          description: "",
+          section: "News",},{id: "news-received-the-migara-ratnatunga-trust-award-on-industrial-training-for-university-undergraduates-2024-2025-from-the-institution-of-engineers-sri-lanka-iesl-for-best-performance-in-the-computer-engineering-category-trophy",
+          title: 'Received the Migara Ratnatunga Trust Award on Industrial Training for University Undergraduates 2024/2025...',
+          description: "",
+          section: "News",},{id: "news-graduated-with-a-b-sc-in-computer-engineering-first-class-honours-from-the-university-of-peradeniya-mortar-board",
+          title: 'Graduated with a B.Sc. in Computer Engineering (First Class Honours) from the University...',
+          description: "",
+          section: "News",},{id: "news-joined-the-multidisciplinary-ai-research-centre-marc-university-of-peradeniya-as-a-volunteer-research-assistant-and-initiated-work-for-the-generative-ai-llm-research-group",
+          title: 'Joined the Multidisciplinary AI Research Centre (MARC), University of Peradeniya, as a volunteer...',
+          description: "",
+          section: "News",},{id: "news-appointed-as-a-temporary-instructor-teaching-assistant-in-the-department-of-computer-engineering-university-of-peradeniya",
+          title: 'Appointed as a Temporary Instructor (Teaching Assistant) in the Department of Computer Engineering,...',
+          description: "",
+          section: "News",},{id: "news-started-a-collaboration-with-the-department-of-psychiatry-university-of-illinois-chicago-on-how-conversational-llms-recognize-depression-related-cues",
+          title: 'Started a collaboration with the Department of Psychiatry, University of Illinois Chicago, on...',
+          description: "",
+          section: "News",},{id: "news-appointed-as-a-research-assistant-at-marc-leading-the-generative-ai-llm-research-group-and-joining-the-generative-ai-genetics-group",
+          title: 'Appointed as a Research Assistant at MARC, leading the Generative AI – LLM...',
+          description: "",
+          section: "News",},{id: "news-our-paper-prompt-sensitivity-or-evaluation-artifact-a-task-aware-analysis-for-large-language-models-was-published-at-the-12th-ieee-moratuwa-engineering-research-conference-mercon-2026-page-facing-up",
+          title: 'Our paper Prompt Sensitivity or Evaluation Artifact? A Task-Aware Analysis for Large Language...',
+          description: "",
+          section: "News",},{id: "projects-prompt-sensitivity-and-evaluation-artifacts-in-llms",
+          title: 'Prompt Sensitivity and Evaluation Artifacts in LLMs',
+          description: "Is it the model or the metric? Separating genuine prompt sensitivity from scoring artifacts.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/prompt-sensitivity/";
+            },},{id: "projects-gender-stereotypes-in-llm-generated-children-39-s-stories",
+          title: 'Gender Stereotypes in LLM-Generated Children&amp;#39;s Stories',
+          description: "How the intended child and the narrator shape character traits and social roles in AI-written stories.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gender-stereotypes/";
+            },},{id: "projects-hallucination-detection-in-large-language-models",
+          title: 'Hallucination Detection in Large Language Models',
+          description: "Assessing the factual reliability of generated claims with multiple energy signals.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/hallucination-detection/";
+            },},{id: "projects-depression-related-cue-recognition-in-llm-conversations",
+          title: 'Depression-Related Cue Recognition in LLM Conversations',
+          description: "Do conversational LLMs notice, and respond appropriately to, signs of depression?",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/depression-cues/";
+            },},{id: "projects-absorb-discrete-diffusion-for-single-cell-rna-seq-imputation",
+          title: 'ABSORB: Discrete Diffusion for Single-Cell RNA-seq Imputation',
+          description: "Treating dropout as masked missingness for selective imputation of gene expression.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/absorb/";
+            },},{id: "projects-classifying-single-joint-motor-imagery-eeg-for-bcis",
+          title: 'Classifying Single-Joint Motor-Imagery EEG for BCIs',
+          description: "Decoding imagined wrist pronation and supination from EEG. Final-year undergraduate research.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/motor-imagery-eeg/";
+            },},{id: "projects-accessible-gaming-controllers-for-children-with-cerebral-palsy",
+          title: 'Accessible Gaming Controllers for Children with Cerebral Palsy',
+          description: "Research internship at the NeuroBionics Laboratory, University of Melbourne.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/accessible-controllers/";
+            },},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%73%61%79%75%6D%69%6D%75%74%68%75@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+        },
+      },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=-3Eo8csAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/sayumimuthu", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/sayumi-muthukumarana-267148216", "_blank");
+        },
+      },{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/pdf/Sayumi_Muthukumarana_CV.pdf", "_blank");
+        },
+      },{
+        id: 'social-university_profile',
+        title: 'University_profile',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://people.ce.pdn.ac.lk/students/e19/249/", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>
