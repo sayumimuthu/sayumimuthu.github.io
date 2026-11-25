@@ -1,0 +1,15 @@
+"MERCon":
+  url: https://mercon.uom.lk/
+  color: "#00629B"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#b31b1b"
+
+"ICLR":
+  url: https://iclr.cc/
+  color: "#3e7b48"
+
+"CL":
+  url: https://direct.mit.edu/coli
+  color: "#6a4c93"

@@ -1,0 +1,9 @@
+# Link co-author names in the publication list to their pages.
+# Key = last name in lowercase; firstname = the spellings used in papers.bib.
+"godaliyadda":
+  - firstname: ["Roshan", "R."]
+    url: https://web2.ee.pdn.ac.lk/people/RoshanG
+
+"ragel":
+  - firstname: ["Roshan", "R."]
+    url: https://people.ce.pdn.ac.lk/staff/academic/roshan-ragel/

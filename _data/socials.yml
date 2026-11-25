@@ -1,0 +1,11 @@
+# Social and contact links, displayed in the order defined here.
+# Docs: https://github.com/george-gca/jekyll-socials
+email: sayumimuthu@gmail.com
+scholar_userid: "-3Eo8csAAAAJ" # Google Scholar ID (keep the quotes: it starts with a dash)
+github_username: sayumimuthu
+linkedin_username: sayumi-muthukumarana-267148216
+cv_pdf: /assets/pdf/Sayumi_Muthukumarana_CV.pdf
+university_profile:
+  logo: fa-solid fa-building-columns
+  title: University of Peradeniya profile
+  url: https://people.ce.pdn.ac.lk/students/e19/249/

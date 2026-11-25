@@ -1,0 +1,160 @@
+cv:
+  name: Sayumi Muthukumarana
+  label: Research Assistant, Multidisciplinary AI Research Centre (MARC), University of Peradeniya
+  email: sayumimuthu@gmail.com
+  location: Peradeniya, Sri Lanka
+  website: https://sayumimuthu.github.io
+  image: ""
+  summary: >
+    Research Assistant at MARC, University of Peradeniya, working on natural language processing,
+    responsible AI, large language models and computational biology, with applications mostly in
+    biomedical engineering. B.Sc. in Computer Engineering (First Class Honours, GPA 3.75/4.00).
+
+  social_networks:
+    - network: GitHub
+      username: sayumimuthu
+    - network: LinkedIn
+      username: sayumi-muthukumarana-267148216
+
+  address:
+    city: Peradeniya
+    region: Sri Lanka
+
+  sections:
+    # "Experience" is rendered first with the timeline layout.
+    Experience:
+      - company: Multidisciplinary AI Research Centre (MARC), University of Peradeniya
+        position: Research Assistant
+        location: Peradeniya, Sri Lanka
+        url: https://pdnmarc.github.io
+        start_date: 2026-07
+        end_date: present
+        highlights:
+          - Lead RA for the Generative AI – Large Language Model (LLM) research group.
+          - RA for the Generative AI – Genetics research group.
+
+      - company: Multidisciplinary AI Research Centre (MARC), University of Peradeniya
+        position: Volunteer Research Assistant
+        location: Peradeniya, Sri Lanka
+        url: https://pdnmarc.github.io
+        start_date: 2025-08
+        end_date: 2026-06
+        highlights:
+          - Initiated research work for the Generative AI – Large Language Model (LLM) research group.
+
+      - company: NeuroBionics Laboratory, University of Melbourne
+        position: Research Intern
+        location: Melbourne, Australia
+        url: https://biomedical.eng.unimelb.edu.au/john-neurobionics
+        start_date: 2024-07
+        end_date: 2024-12
+        highlights:
+          - Contributed to an assistive-technology project exploring accessible gaming controllers for children with cerebral palsy.
+          - Explored EEG signal characteristics for brain-computer interfacing (BCI) applications.
+
+    Education:
+      - institution: University of Peradeniya, Sri Lanka
+        area: Specialised in Computer Engineering
+        studyType: Bachelor of the Science of Engineering Honours (B.Sc. Eng.)
+        location: Peradeniya, Sri Lanka
+        start_date: 2021
+        end_date: 2025
+        highlights:
+          - "GPA: 3.75/4.00 (First Class Honours) | [Transcript](https://drive.google.com/file/d/1ZgP8q8y13cMEeCY8xIDfuloNZymtXOWr/view?usp=sharing)"
+          - "Conducted and assessed in English medium; accredited under the Washington Accord. | [Accreditation](https://iesl.lk/index.php?option=com_content&view=article&id=126&Itemid=170&lang=en)"
+          - "Final-year research: [Classification of single-joint motor-imagery EEG tasks for brain-computer interfaces](/projects/motor-imagery-eeg/)"
+
+      - institution: Sujatha Vidyalaya, Matara, Sri Lanka
+        studyType: G.C.E. Advanced Level and Ordinary Level
+        location: Matara, Sri Lanka
+        start_date: 2006
+        end_date: 2019
+        highlights:
+          - "G.C.E. Advanced Level: Combined Mathematics, Chemistry, Physics (AAB)"
+          - "G.C.E. Ordinary Level: 9 Distinction Passes (A)"
+
+    Publications:
+      - title: "Prompt Sensitivity or Evaluation Artifact? A Task-Aware Analysis for Large Language Models"
+        authors:
+          - Sayumi Muthukumarana
+          - Buddhi Wijenayake
+          - Roshan Godaliyadda
+          - Parakrama Ekanayake
+        publisher: 12th IEEE Moratuwa Engineering Research Conference (MERCon), 2026
+        releaseDate: 2026-08-14
+        url: https://ieeexplore.ieee.org/document/11691277
+
+      - title: "Once Upon a Bias: Gender Stereotyping in LLM-Generated Children's Stories"
+        authors:
+          - Sayumi Muthukumarana
+          - Roshan Godaliyadda
+          - Parakrama Ekanayake
+          - Roshan Ragel
+        publisher: Preprint on arXiv
+        releaseDate: 2026
+
+      - title: "ABSORB: Absorbing-State Discrete Diffusion for Single-Cell Gene Expression Imputation"
+        authors:
+          - Chandula Adhikari
+          - Sayumi Muthukumarana
+          - Roshan Godaliyadda
+          - Parakrama Ekanayake
+        publisher: Under review at ICLR 2027
+        releaseDate: 2026
+
+      - title: "Internal Representations for Hallucination Detection and Mitigation in Large Language Models: A Systematic Literature Review"
+        authors:
+          - Sayumi Muthukumarana
+          - Marlon Ekanayake
+          - Roshan Godaliyadda
+          - Parakrama Ekanayake
+        publisher: Under review at Computational Linguistics
+        releaseDate: 2026
+
+    Honors and Awards:
+      - title: Migara Ratnatunga Trust Award on Industrial Training for University Undergraduates 2024/2025
+        awarder: Institution of Engineers, Sri Lanka (IESL)
+        date: 2025
+        summary: For best performance in the Computer Engineering category.
+
+    Teaching Experience:
+      - bullet: "**Temporary Instructor (Teaching Assistant)**, Department of Computer Engineering, University of Peradeniya (Oct 2025 – Jun 2026). Designed and led undergraduate laboratories and tutorials; assisted students during practical sessions, reinforcing programming and engineering concepts."
+      - bullet: "**Casual Instructor**, Department of Computer Engineering, University of Peradeniya (Nov 2023 – Aug 2025). Supported undergraduate laboratories and tutorials; assisted students during practical sessions."
+      - bullet: "**Visiting Lecturer**, ESOFT Metro Campus, Colombo, Sri Lanka (Nov 2020 – Apr 2025). Delivered instruction in computing-related subjects and supported student learning and coursework."
+
+    Skills:
+      - name: Programming
+        icon: fa-solid fa-code
+        keywords: "Python, Java, JavaScript, C, C++"
+      - name: Deep Learning
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, TensorFlow, Hugging Face Transformers, scikit-learn; NLP, CNNs, Transformers, model evaluation"
+      - name: Statistical Research
+        icon: fa-solid fa-chart-simple
+        keywords: "Matched designs, resampling and confidence intervals, human annotation, inter-rater reliability, systematic literature reviews"
+      - name: Signal Processing
+        icon: fa-solid fa-wave-square
+        keywords: "EEG filtering, artifact handling, independent component analysis, time-series classification"
+      - name: Embedded Systems
+        icon: fa-solid fa-microchip
+        keywords: "Arduino, microcontrollers, capacitive sensing, inertial sensors, Bluetooth-based interfaces, rapid hardware prototyping"
+      - name: Research Tools
+        icon: fa-solid fa-screwdriver-wrench
+        keywords: "Git/GitHub, Linux, Jupyter Notebook; reproducible workflows and technical documentation"
+      - name: Soft Skills
+        icon: fa-solid fa-people-group
+        keywords: "Communication, teamwork and collaboration"
+
+    Service and Leadership:
+      - bullet: "**Editor**, Association of Computer Engineering Students (ACES), University of Peradeniya (2025). Contributed to student-association communications and editorial activities."
+      - bullet: "**Exchange Support Team Manager**, AIESEC in Switzerland (Feb 2023 – Jul 2023). Supported international exchange-related team coordination and operations."
+      - bullet: "**Team Leader, Outgoing Global Volunteer**, AIESEC in Kandy, Sri Lanka (Feb 2022 – Jul 2022). Led volunteer-exchange team activities; also served in additional AIESEC organizing and volunteer roles during 2021–2023."
+      - bullet: "**Deputy Head Prefect**, Sujatha Vidyalaya, Matara, Sri Lanka (2018). Led and organized school activities along with the board of prefects."
+
+    References:
+      - name: Prof. Roshan Ragel
+        icon: fa-solid fa-user-tie
+        reference: "Professor, Department of Computer Engineering, University of Peradeniya, Sri Lanka. Professional relationship: Project Supervisor."
+      - name: Prof. Roshan Godaliyadda
+        icon: fa-solid fa-user-tie
+        reference: "Professor, Department of Electrical and Electronic Engineering, University of Peradeniya, Sri Lanka. Professional relationship: Project Supervisor."

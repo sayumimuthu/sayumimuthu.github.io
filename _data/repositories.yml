@@ -1,0 +1,10 @@
+github_users:
+  - sayumimuthu
+
+repo_description_lines_max: 2
+
+github_repos:
+  - sayumimuthu/llm-prompt-sensitivity-evaluation-artifact
+  - sayumimuthu/Bias-Detection-in-LLMs
+  - sayumimuthu/ebm_for_hallucination_in_llms
+  - sayumimuthu/llm-depression-cue-evaluation

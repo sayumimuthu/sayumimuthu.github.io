@@ -1,0 +1,15 @@
+{
+  "basics": {
+    "name": "Sayumi Muthukumarana",
+    "label": "Research Assistant, Multidisciplinary AI Research Centre (MARC), University of Peradeniya",
+    "email": "sayumimuthu@gmail.com",
+    "url": "https://sayumimuthu.github.io",
+    "summary": "Research Assistant working on natural language processing, responsible AI, large language models and computational biology.",
+    "location": { "city": "Peradeniya", "countryCode": "LK" },
+    "profiles": [
+      { "network": "GitHub", "username": "sayumimuthu", "url": "https://github.com/sayumimuthu" },
+      { "network": "LinkedIn", "username": "sayumi-muthukumarana-267148216", "url": "https://www.linkedin.com/in/sayumi-muthukumarana-267148216/" },
+      { "network": "Google Scholar", "url": "https://scholar.google.com/citations?user=-3Eo8csAAAAJ" }
+    ]
+  }
+}
